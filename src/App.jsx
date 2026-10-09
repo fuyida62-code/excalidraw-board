@@ -48,14 +48,6 @@ export default function App() {
       <Excalidraw
         langCode="zh-CN"
         theme="light"
-        UIOptions={{
-          canvasActions: {
-            loadScene: true,
-            saveToActiveFile: true,
-            export: true,
-            saveAsImage: true,
-          },
-        }}
         initialData={initialData || undefined}
         onChange={handleChange}
       />
